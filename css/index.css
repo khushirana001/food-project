@@ -1,0 +1,306 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #0a0b0b;
+}
+.template{ width:960px;
+    margin:0 auto;
+
+}
+.header-section{
+    height:60px ;
+    width:100% ;
+    background-color: #966161;
+}
+.logo{ 
+    width:20%;
+    height: 100%;
+    float:left;
+}
+.logo img{ 
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 4px;
+    
+}
+.menu{
+    width:40% ;
+    height:100%;
+    float:left;
+    margin-left:191px;
+}
+.menu ul{}
+.menu ul li{
+    float:left;
+    list-style: none;
+    margin-left: 30px;
+    line-height:60px ;
+}
+.menu ul li a{
+    color:bisque;
+    text-decoration:none ;
+}
+.social-icon{
+ width:20%;
+ height: 100%;
+ float:left;
+ 
+}
+.social-icon i{
+ color:#c9d2d2;
+ margin-left:20px;
+ line-height:60px ;
+}
+/*header section css end here*/
+.banner-section{
+    height: 400px;
+    width: 100%;
+    background-image:url(../image/c26c55869947dce62164dad502438158.jpg) ;
+    
+    color:white;
+
+}
+.banner-content{
+    margin-left: 50px;
+    padding-top:140px ;
+}
+.banner-content h2{
+    font-size:40px ;
+    padding-bottom: 10px;
+}
+.banner-content p{
+    font-size: 15px;
+    padding-bottom:20px ;
+
+}
+.banner-content button{
+    background-color: #1694b7;
+    padding: 7px 10px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight:bold;
+    color:aliceblue;
+}
+.banner-content button:hover{
+    background-color: #083910;
+    
+
+}
+/* banner section css end*/
+.about-section{
+    height:350px;
+    width:100%;
+    background-color: #fff;
+    padding: 50px 0px;
+}
+.about-left{
+    width:40%;
+    float:left;
+    padding-left:40px ;
+    padding-right: 60px;
+}
+.about-left h2{
+    font-size:25px ;
+    padding-bottom: 10px;
+}
+.about-left p {
+    font-size:14px ;
+    padding-bottom:20px ;
+}
+.about-left button{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius:5px ;
+    font-weight:bold ;
+}
+.about-right{
+    width:40%;
+    float:left;
+}
+.about-right img{
+    height:350px;
+    width:400px;
+}
+.p{
+    width:928px;
+    height: 90px;
+    background-color: #030303;
+    color:whitesmoke ;
+    border:2px solid black;
+    padding-top:50px;
+    padding-bottom:48px ;
+    padding-right: 30px;
+    padding-left: 30;
+    text-align: center;
+
+}
+.m{
+    width:957px;
+    height:350px;
+    border:2px solid black;
+    background-color: #fff;
+}
+.rr{
+    width:33%;
+    height:100%;
+    
+    float:left;
+
+
+}
+
+
+.ll{
+    width:33%;
+    height:100%;
+    
+    float:left;
+    
+
+}
+.mm{
+    width:33%;
+    height:100%;
+    
+    float:left;
+       
+}
+.rr{
+    width:33%;
+    height:100%;
+    float:left;
+
+}
+.rr img{
+    width:80%;
+    height:40%;
+    border:10px solid white;
+    padding:14px;
+}
+.rr h2{
+ padding-left: 4px;
+ margin:4px;
+}
+.rr p{
+    padding-left:4px ;
+    margin:4px;
+}
+.rr button{
+    margin:4px;
+    color:black;
+    width:90px;
+}
+.rr button:hover{
+    color:#141313;
+    background-color: #a16fa5;
+}
+.ll img{
+    width:80%;
+    height:40%;
+    border:10px solid white;
+    padding:14px;
+}
+.ll h2{
+    padding-left: 4px;
+ margin:4px;
+}
+.ll p{
+    padding-left:4px ;
+    margin:4px;
+}
+.ll button{
+    margin:4px;
+    color:black;
+    width:90px;
+}
+.ll button:hover{
+    color:#141313;
+    background-color: #a16fa5;
+}
+.mm img{
+    width:80%;
+    height:40%;
+    border:10px solid white;
+    padding:14px;
+}
+.mm h2{
+    padding-left: 4px;
+ margin:4px;
+}
+.mm p{
+    padding-left:4px ;
+    margin:4px;
+}
+.mm button{
+    margin:4px;
+    color:black;
+    width:90px;
+}
+.mm button:hover{
+    color:#ea5555;
+    background-color: #a16fa5;
+}
+.folder{
+
+    width:960px;
+    height:250px;
+    background-color: #38c3be;
+}
+.left-folder{
+    width:50%;
+    height:100%;
+    float:left;
+    padding-left: 14px;
+    padding-top:30px;
+
+}
+.left-folder h3{
+    color:white;
+    padding:3px ;
+
+
+}
+.left-folder p{
+    color:#d2e0e0;
+    padding: 5px;
+    font-size: 10px;
+
+}
+.right-folder{
+    width:45%;
+    height:80%;
+
+    float:left;
+    padding-top:40px;
+    font-size: 10px;
+    color:#c9d2d2;
+     
+}
+.right-folder a{
+    color: rgb(153, 243, 210);
+    font-size: 6px;
+    background-color: #1ab98c;
+    border:2px solid #1ab98c;
+}
+.footer{
+    width:960px ;
+    height:50px;
+    background-color: #fff;
+    
+}
+.footer s{
+    width:20%;
+ height: 100%;
+ float:left;
+ 
+}
+.footer s i{
+    color:#0b5641;
+    background-color: #084644;
+    line-height:60px ;
+    margin-left: 20;
+}
+    
